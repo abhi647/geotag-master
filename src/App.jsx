@@ -159,9 +159,9 @@ function App() {
       <div className="preview-container">
         <div className="geo-image-wrapper" ref={resultRef}>
           {image ? (
-            <img src={image} alt="Preview" style={{ width: '100%', display: 'block', maxHeight: '80vh', objectFit: 'contain' }} />
+            <img src={image} alt="Preview" />
           ) : (
-            <div style={{ width: '100%', minWidth: '500px', aspectRatio: '16/9', background: 'rgba(255,255,255,0.02)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <div className="preview-placeholder">
               <div style={{ textAlign: 'center', color: '#64748b' }}>
                 <Upload size={48} style={{ marginBottom: '1rem', opacity: 0.3 }} />
                 <p>Upload a background image to see the overlay live</p>

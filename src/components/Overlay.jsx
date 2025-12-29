@@ -15,8 +15,8 @@ const Overlay = ({ data, mapPreview }) => {
       </div>
       <div className="info-box">
         <div className="info-title">
-          {data.locationName || 'Location Name'}
-          <span style={{ fontSize: '1.2rem' }}>🇮🇳</span>
+          <span className="text">{data.locationName || 'Location Name'}</span>
+          <span className="emoji">🇮🇳</span>
         </div>
         <div className="info-address">
           {data.address || 'Street Address, City, State, ZIP, Country'}
