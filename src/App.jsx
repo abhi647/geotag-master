@@ -172,7 +172,7 @@ function App() {
           {image && <Overlay data={data} mapPreview={mapPreview} />}
         </div>
 
-        <p style={{ marginTop: '1.5rem', color: '#64748b', fontSize: '0.8rem', maxWidth: '500px', textAlign: 'center' }}>
+        <p className="footer-note">
           The output will be saved as a high-quality JPEG with GPS coordinates and Timestamp embedded in the EXIF data.
         </p>
       </div>

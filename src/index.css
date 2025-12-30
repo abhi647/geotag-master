@@ -181,6 +181,24 @@ textarea:focus {
   justify-content: center;
 }
 
+.preview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  width: 100%;
+}
+
+.footer-note {
+  margin-top: 1.5rem;
+  color: #64748b;
+  font-size: 0.8rem;
+  max-width: 500px;
+  text-align: center;
+  line-height: 1.5;
+}
+
 /* Preview Section */
 
 .geo-image-wrapper {
