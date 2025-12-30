@@ -256,11 +256,8 @@ textarea:focus {
 }
 
 .info-title span.text {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: calc(100% - 100px);
-  /* Leave room for badge if side-by-side */
+  flex-grow: 1;
+  min-width: 0;
 }
 
 .info-address {
